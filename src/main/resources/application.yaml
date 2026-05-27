@@ -3,3 +3,9 @@ spring:
     name: stockflow
   profiles:
     active: local
+
+koreainvestment:
+  api:
+    key: "${KOREA_INVESTMENT_KEY}"
+    secret: "${KOREA_INVESTMENT_SECRET}"
+    url: "https://openapivts.koreainvestment.com:29443"
